@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/learn/cmake_tutorial/example1/helloworld.cpp
+iostream
+-
+

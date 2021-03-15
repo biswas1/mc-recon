@@ -1,0 +1,12 @@
+//example 4.15 Returning by Reference 
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std; 
+
+int main(){
+
+
+
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++    -pthread -std=c++11 -m64 -I/u/apps/root/6.10.02/root/include  -L/u/apps/root/6.10.02/root/lib -lGui -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -pthread -lm -ldl -rdynamic CMakeFiles/mc_recon.dir/src/recon_mc.cpp.o  -o mc_recon -rdynamic 

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rc_mod.h
+iostream
+-
+fstream
+-
+string
+-
+TFile.h
+../include/TFile.h
+TTree.h
+../include/TTree.h
+TH1F.h
+../include/TH1F.h
+TF1.h
+../include/TF1.h
+TGraph.h
+../include/TGraph.h
+TROOT.h
+-
+
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/cross-section-final/src/cross_section_final.cpp
+iostream
+-
+string
+-
+math.h
+-
+rc_mod.h
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/cross-section-final/src/rc_mod.h
+
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/cross-section-final/src/rc_mod.cpp
+iostream
+-
+rc_mod.h
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/cross-section-final/src/rc_mod.h
+

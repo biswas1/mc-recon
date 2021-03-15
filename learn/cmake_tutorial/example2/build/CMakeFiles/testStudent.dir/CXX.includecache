@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Student.h
+string
+-
+TFile.h
+../include/TFile.h
+TTree.h
+../include/TTree.h
+TH1F.h
+../include/TH1F.h
+TF1.h
+../include/TF1.h
+TGraph.h
+../include/TGraph.h
+fstream
+-
+iostream
+-
+TROOT.h
+-
+
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/learn/cmake_tutorial/example2/src/mainapp.cpp
+Student.h
+/home/biswas/f2workspace/cross-section-code/mc-recon-c-incubator/learn/cmake_tutorial/example2/src/Student.h
+

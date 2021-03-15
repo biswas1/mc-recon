@@ -1,0 +1,20 @@
+Project with multiple directories :
+
+here we have two main directories : 1) src : contains 2 files 2)include: contains 1 file 
+
+for these kind of structure where we have multiple direcory and sub directories CMake is very impotant.The usual practice is having the indivisual makefiles in different subdirectories and then indivisually invoked by the makefile in the parent directory. 
+
+ header files are in include directory 
+ source files are in src directory 
+
+* change last line in CMakeLists.txt : 
+add_executable(<whatever name you want for your executable> ${sources})
+
+from the build directory we will call the cmake program 
+>>cd build 
+>>cmake ..
+>>make 
+
+this will form an executable : <whatever name you want for your executable>
+
+>>./<whatever name you want for your executable>
